@@ -1,0 +1,7 @@
+---
+
+- id: android.widget.ImageView.setImageResource
+  type: call
+  template:
+    pattern: "~this~.image = ~0~().toImage()"
+    imports: [UIKit]
